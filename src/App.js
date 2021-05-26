@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Heatmap from './heatmap'
+import ApexChart from "./ApexChart";
+import ApexChart2 from "./ApexChart2";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Risk Heatmap Test</h2>
+      <ApexChart/>
+      <h2>Apex Risk Heatmap Test2</h2>
+      <ApexChart2/>
+      <h2>Risk Heatmap Test2</h2>
+      <Heatmap/>
     </div>
   );
 }
